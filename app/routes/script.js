@@ -10,6 +10,7 @@ export default Ember.Route.extend({
   actions: {
     addToCart(item) {
       this.get('shoppingCart').add(item);
+      this.transitionTo('checkout');
     },
   }
 });

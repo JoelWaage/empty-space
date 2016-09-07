@@ -7,7 +7,7 @@
   font-weight: bold;
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
 }
@@ -40,6 +40,15 @@ li {
 .tile-genre {
   float: right;
   margin-right: 6%;
+}
+
+.cart-button {
+  margin-bottom: 30px
+}
+
+.checkout-head {
+  font-size: 4em;
+  margin-top: 50px
 }
 
 @media(max-width: 1025px) {

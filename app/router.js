@@ -8,6 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('script', {path: '/script/:script_id'});
+  this.route('checkout');
 });
 
 export default Router;
