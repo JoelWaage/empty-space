@@ -1,0 +1,45 @@
+.header {
+  border-top: 40px solid black;
+}
+
+.head-text {
+  float: right;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+.index-row {
+  margin-top: 10%;
+}
+
+.index-display {
+  margin-left: 40px;
+}
+
+.index-title {
+  font-weight: bold;
+}
+
+.script-description {
+  font-size: 1.5em;
+}
+
+.tile-genre {
+  float: right;
+  margin-right: 6%;
+}
+
+@media(max-width: 1025px) {
+  .index-row {
+    margin-top: 20%;
+  }
+  .index-display {
+    text-align: center;
+  }
+  .tile-image {
+    align-items: center;
+  }
+}
