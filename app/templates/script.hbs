@@ -8,8 +8,9 @@
     </div>
     <div class="col-md-6">
       <p class="script-description">{{model.description}}</p>
+      <button class="btn btn-lg btn-success" {{action 'addToCart' model}}>Add to Cart</button>
       <br>
-      <button class="btn btn-lg btn-success">Add to Cart</button>
+      {{display-cart}}
     </div>
   </div>
 </div>
