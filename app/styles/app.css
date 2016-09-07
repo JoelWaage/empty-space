@@ -3,8 +3,17 @@
 }
 
 .head-text {
-  float: right;
+  float: left;
   font-weight: bold;
+}
+
+footer {
+  bottom:0;
+}
+
+.checkout-link {
+  float: right;
+  margin-right: 20px;
 }
 
 a {
@@ -23,6 +32,7 @@ li {
 
 .index-row {
   margin-top: 10%;
+  margin-left: 15%;
 }
 
 .index-display {
@@ -48,7 +58,15 @@ li {
 
 .checkout-head {
   font-size: 4em;
-  margin-top: 50px
+  margin-top: 100px
+}
+
+.item-display {
+  font-size: 1.8em;
+}
+
+.price-display {
+  font-size: 2.2em;
 }
 
 @media(max-width: 1025px) {

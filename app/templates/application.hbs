@@ -1,5 +1,10 @@
-<div class="header"></div>
-<h1 class="head-text">{{#link-to 'index'}}the empty space{{/link-to}}</h1>
+<header>
+  <div class="header"></div>
+  <h1 class="head-text">{{#link-to 'index'}}the empty space{{/link-to}}</h1>
+  <h5 class="checkout-link">{{#link-to 'checkout'}}<span class="glyphicon glyphicon-log-out"></span> go to checkout{{/link-to}}</h5>
+</header>
   {{outlet}}
-  <footer>
-  </footer>
+<footer>
+  <h5 class="chekcout-link home-button">{{#link-to 'index'}}<span class="glyphicon glyphicon-home"></span>{{/link-to}}</h5>
+  <div class="header"></div>
+</footer>

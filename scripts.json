@@ -2,36 +2,42 @@
     "title": "The Elaborate Entrance of Chad Diety",
     "author": "Kristoffer Diaz",
     "genre": "Dramatic Comedy",
+    "price": 11,
     "image": "http://www.samuelfrench.com/content/images/thumbs/0000078_elaborate_entrance_of_chad_deity_the_300.jpeg",
     "description": "Ladies and Gentlemen, in this corner of Chicago’s rich theater scene, weighing in with a unique combo of vigorous physicality and wickedly intelligent humor, please put your hands together for The Elaborate Entrance of Chad Deity, a vibrantly entertaining, insightful new play about -- wait for it -- professional wrestling."
   }, {
     "title": "Pocatello",
     "author": "Samuel D. Hunter",
     "genre": "Drama",
+    "price": 9,
     "image": "http://www.samuelfrench.com/content/images/thumbs/0047958_pocatello_300.jpeg",
     "description": "Eddie manages an Italian chain restaurant in Pocatello—a small, unexceptional American city that is slowly being paved over with strip malls and franchises. But he can’t serve enough Soup, Salad & Breadstick Specials to make his hometown feel like home. Against the harsh backdrop of Samuel D. Hunter’s Idaho, this heartbreaking comedy is a cry for connection in an increasingly lonely American landscape."
   }, {
     "title": "For Colored Girls Who Have Considered Suicide When the Rainbow is Enuf",
     "author": "Ntozake Shange",
     "genre": "Drama",
+    "price": 6,
     "image": "http://www.samuelfrench.com/content/images/thumbs/0004078_for_colored_girls_who_have_considered_suicide_when_the_rainbow_is_enuf_300.jpeg",
     "description": "This groundbreaking 'choreopoem' is a spellbinding collection of vivid prose and free verse narratives about and performed by Black women. Capturing the brutal, tender and dramatic lives of contemporary Black women, For Colored Girls... offers a transformative, riveting evening of provocative dance, music and poetry. "
   }, {
     "title": "The Royale",
     "author": "Marco Ramirez",
     "genre": "Drama",
+    "price": 16,
     "image": "http://www.samuelfrench.com/content/images/thumbs/0046983_royale_the_300.jpeg",
     "description": "Jay 'The Sport' Jackson dreams of being the undisputed heavyweight champion of the world. But it's 1905, and in the racially segregated world of boxing, his chances are as good as knocked out. When a crooked boxing promoter hatches a plan for 'the fight of the century', The Sport just might land a place in the ring with the reigning white heavyweight champion."
   }, {
     "title": "The Lion in Winter",
     "author": "James Goldman",
     "genre": "Drama",
+    "price": 8,
     "image": "http://www.samuelfrench.com/content/images/thumbs/0035533_lion_in_winter_the_300.jpeg",
     "description": "Sibling rivalry, adultery and dungeons – Lion in Winter, by James Goldman, is a modern day classic.  Comedic in tone, dramatic in action – the play tells the story of the Plantagenet family who are locked in a free for all of competing ambitions to inherit a kingdom. The queen, and wealthiest woman in the world, Eleanor of Aquitaine, has been kept in prison since raising an army against her husband, King Henry II.  Let out only for holidays, the play centers around the inner conflicts of the royal family as they fight over both a kingdom, as well as King Henry’s paramour during the Christmas of 1183. As Eleanor says, “every family has its ups and downs,” and this royal family is no exception."
   }, {
-    "title": "Vany and Sonia and Masha and Spike",
+    "title": "Vanya and Sonia and Masha and Spike",
     "author": "Christopher Durang",
     "genre": "Comedy",
+    "price": 12,
     "image": "http://www.samuelfrench.com/content/images/thumbs/0047736_vanya_and_sonia_and_masha_and_spike_300.jpeg",
     "description": "Nominated for six Tony Awards(R), 'Vanya and Sonia and Masha and Spike' is one of the most lauded and beloved Broadway plays of recent years. Vanya and his adopted sister Sonia live a quiet life in the Pennsylvania farmhouse where they grew up, but their peace is disturbed when their movie star sister Masha returns unannounced with her twenty-something boy toy, Spike. A weekend of rivalry, regret, and raucousness begins"
     }]

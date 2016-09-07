@@ -1,3 +1,15 @@
-{{#each shoppingCart.items as |item|}}
-  <li>{{item.title}}</li>
-{{/each}}
+<ul class="list-group row">
+  {{#each shoppingCart.items as |item|}}
+    <hr>
+    <ul class="col-sm-1 price-display">
+      <li>${{item.price}}</li>
+    </ul>
+    <ul class="col-sm-2">
+      <li class="item-display"><img src={{item.image}} height="50" width="auto" /></li>
+    </ul>
+    <ul class="col-sm-8">
+      <li>{{item.title}}</li>
+    </ul>
+    <br>
+  {{/each}}
+</ul>

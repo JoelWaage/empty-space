@@ -6,5 +6,6 @@ export default DS.Model.extend({
   description: DS.attr(),
   genre: DS.attr(),
   image: DS.attr(),
-  title: DS.attr()
+  title: DS.attr(),
+  price: DS.attr()
 });

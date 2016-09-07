@@ -1,9 +1,12 @@
-<h1 class="checkout-head">Checkout</h1>
+<div class="container">
+  <h1 class="checkout-head">Checkout</h1>
 
-<ul class="checkout-list">
-  {{display-cart}}
-</ul>
+  <ul class="checkout-list">
+    {{display-cart}}
+  </ul>
+  <hr>
 
-<div>
-  <button class="btn btn-lg btn-default">{{#link-to 'index'}}Continue Shopping{{/link-to}}</button>
+  <div>
+    <button class="btn btn-md btn-default continue-button">{{#link-to 'index'}}Continue Shopping{{/link-to}}</button>
+  </div>
 </div>
