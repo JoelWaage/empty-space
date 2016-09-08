@@ -69,6 +69,10 @@ li {
   font-size: 2.2em;
 }
 
+.cart-title {
+  font-size: 2.2em;
+}
+
 @media(max-width: 1025px) {
   .index-row {
     margin-top: 20%;
