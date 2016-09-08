@@ -1,0 +1,24 @@
+{{#if cartFull}}
+      <ul class="checkout-list">
+        {{display-cart}}
+      </ul>
+      <hr>
+      <div class="rows">
+        <div class="col-sm-3">
+          <button class="btn btn-md btn-default checkout-button">Checkout</button>
+        </div>
+        <div class="col-sm-3">
+          <button class="btn btn-md btn-default continue-button">{{#link-to 'index'}}Continue Shopping{{/link-to}}</button>
+        </div>
+        <div class="col-sm-3">
+          <a href="/"><button class="btn btn-md btn-default">Clear Cart</button></a>
+        </div>
+        <hr>
+      </div>
+{{else}}
+  <div class="shopping">
+    <h3>Your Cart is empty, you should be shopping!</h3>
+    <br>
+    <button class="btn btn-md btn-default">{{#link-to 'index'}}Shop!{{/link-to}}</button>
+  </div>
+{{/if}}
