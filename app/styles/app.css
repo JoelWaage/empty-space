@@ -73,6 +73,10 @@ li {
   font-size: 2.2em;
 }
 
+#shipping {
+  margin-left: 10%;
+}
+
 @media(max-width: 1025px) {
   .index-row {
     margin-top: 20%;

@@ -1,15 +1,22 @@
 <ul class="list-group row">
   {{#each shoppingCart.items as |item|}}
     <hr>
-    <ul class="col-sm-1 price-display">
-      <li>${{item.price}}</li>
+    <ul class="col-sm-2 price-display">
+      <li>${{item.price}}.00</li>
     </ul>
     <ul class="col-sm-2">
       <li class="item-display"><img src={{item.image}} height="50" width="auto" /></li>
     </ul>
-    <ul class="col-sm-8">
+    <ul class="col-sm-7">
       <li class="cart-title">{{item.title}}</li>
     </ul>
     <br>
   {{/each}}
 </ul>
+<hr>
+<div id="shipping">
+  <h4>Subtotal: ${{shoppingCart.total}}.00</h4>
+  <h4>Shipping: $3.00</h4>
+</div>
+<hr>
+<h2>Total: ${{add shoppingCart.total 3}}.00</h2>
