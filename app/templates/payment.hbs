@@ -1,0 +1,45 @@
+<div class="container">
+  <form>
+     <div class="input-group index-row">
+       <span class="input-group-addon form-row">First Name:</span>
+         {{input value=first-name id="first-name" class="form-control" placeholder="First Name"}}
+     </div>
+
+     <div class="input-group form-row">
+       <span class="input-group-addon">Last Name:</span>
+         {{input value=last-name id="last-name" class="form-control" placeholder="Last Name"}}
+     </div>
+
+     <div class="input-group  form-row">
+       <span class="input-group-addon">Street:</span>
+         {{input value=street id="street" class="form-control" placeholder="Street"}}
+     </div>
+
+     <div class="input-group form-row">
+       <span class="input-group-addon">City:</span>
+         {{input value=city id="city" class="form-control" placeholder="City"}}
+     </div>
+
+     <div class="input-group form-row">
+       <span class="input-group-addon">State:</span>
+         {{input value=state id="state" class="form-control" placeholder="State"}}
+     </div>
+
+     <div class="input-group form-row">
+       <span class="input-group-addon">Zip: :</span>
+         {{input value=zip id="zip" class="form-control" placeholder="Zip: "}}
+     </div>
+
+     <div class="input-group form-row">
+       <span class="input-group-addon">Credit Card:</span>
+         {{input value=card-number id="card-number" class="form-control" placeholder="Credit Card"}}
+     </div>
+
+     <div class="input-group form-row">
+       <span class="input-group-addon">Expiration:</span>
+         {{input value=expiration id="expiration" class="form-control" placeholder="Expiration"}}
+     </div>
+     <br>
+     <button class="btn btn-md btn-default">{{#link-to 'confirm'}}Submit{{/link-to}}</button>
+  </form>
+</div>

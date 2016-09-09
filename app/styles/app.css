@@ -78,6 +78,10 @@ li {
   margin-left: 10%
 }
 
+.form-row {
+  margin-top: 10px;
+}
+
 #shipping {
   margin-left: 10%;
 }
